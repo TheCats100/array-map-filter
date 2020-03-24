@@ -26,12 +26,12 @@ Expected OUTPUT for this sample array:
 
 */
 
-function getStringsLength(strings) {
-  const result=strings.map(function(compte){
-    return compte+" contains "+compte.length+" characters"
+function getStringsLength(string){
+  const result = string.map(function(motAct){
+    return `${motAct} contains ${motAct.length} characters`
   })
-  return result;
-} 
+  return result
+}
 
 
 // If you need, you can always visualize the result with a console.log.
